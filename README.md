@@ -5,13 +5,13 @@ A simple and editable **resolution preset selector** node for [ComfyUI](https://
 This custom node lets you quickly select common image or video resolutions from a dropdown list, or define your own manual resolution.  
 Presets are stored in a separate `resolutions.json` file that you can freely edit.
 <p align="center">
-  <img src="images/01.png" width="600">
+  <img src="Images/01.png" width="600">
 </p>
 <p align="center">
-  <img src="images/02.png" width="600">
+  <img src="Images/01.png" width="600">
 </p>
 <p align="center">
-  <img src="images/03.png" width="600">
+  <img src="Images/01.png" width="600">
 </p>
 
 
