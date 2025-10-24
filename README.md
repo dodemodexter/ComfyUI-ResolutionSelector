@@ -19,11 +19,11 @@ Presets are stored in a separate `resolutions.json` file that you can freely edi
 
 ## 📁 Folder structure
 
-ComfyUI/custom_nodes/
-└── ResolutionSelector/
-├── init.py
-├── ResolutionSelector.py
-└── resolutions.json
+ComfyUI/custom_nodes/  
+└── ResolutionSelector/  
+├── init.py  
+├── ResolutionSelector.py  
+└── resolutions.json  
 
 ---
 
@@ -48,11 +48,11 @@ The list of resolutions is stored in resolutions.json.
 You can edit this file freely to add, rename, or remove entries.
 
 Example:
-{
-    "IMAGE 1:1 [1024x1024 square]": {"width": 1024, "height": 1024},
-    "WAN - 9:16 HD [544x960 portrait]": {"width": 544, "height": 960},
-    "Custom (manual input)": {"width": 512, "height": 512}
-}
+{  
+    "IMAGE 1:1 [1024x1024 square]": {"width": 1024, "height": 1024},  
+    "WAN - 9:16 HD [544x960 portrait]": {"width": 544, "height": 960},  
+    "Custom (manual input)": {"width": 512, "height": 512}  
+}  
 
 After editing, just click Reload Custom Nodes in ComfyUI Manager — no need to restart.
 
