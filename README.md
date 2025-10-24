@@ -8,10 +8,10 @@ Presets are stored in a separate `resolutions.json` file that you can freely edi
   <img src="Images/01.png" width="600">
 </p>
 <p align="center">
-  <img src="Images/01.png" width="600">
+  <img src="Images/02.png" width="600">
 </p>
 <p align="center">
-  <img src="Images/01.png" width="600">
+  <img src="Images/03.png" width="600">
 </p>
 
 
