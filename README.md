@@ -25,7 +25,6 @@ ComfyUI/custom_nodes/
 ├── ResolutionSelector.py
 └── resolutions.json
 
-
 ---
 
 ## Installation
