@@ -29,25 +29,25 @@ ComfyUI/custom_nodes/
 
 ## Installation
 
-1. Go to your ComfyUI `custom_nodes` folder.
-2. Clone this repository:
+1. Go to your ComfyUI `custom_nodes` folder.  
+2. Clone this repository:  
    ```bash
    git clone https://github.com/dodemedexter/ComfyUI-ResolutionSelector.git
 
 ## Usage
 
-Find it under the Utilities category:
-Utilities → Resolution Selector
-Select a preset (e.g. WAN - 9:16 HD [544x960 portrait])
-Connect the outputs:
-(width, height) → Empty Latent Image
+Find it under the Utilities category:  
+Utilities → Resolution Selector  
+Select a preset (e.g. WAN - 9:16 HD [544x960 portrait])  
+Connect the outputs:  
+(width, height) → Empty Latent Image  
 
 ## 🧾 Editing the presets
 
 The list of resolutions is stored in resolutions.json.
 You can edit this file freely to add, rename, or remove entries.
 
-Example:
+Example:  
 {  
     "IMAGE 1:1 [1024x1024 square]": {"width": 1024, "height": 1024},  
     "WAN - 9:16 HD [544x960 portrait]": {"width": 544, "height": 960},  
