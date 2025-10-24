@@ -4,6 +4,17 @@ A simple and editable **resolution preset selector** node for [ComfyUI](https://
 
 This custom node lets you quickly select common image or video resolutions from a dropdown list, or define your own manual resolution.  
 Presets are stored in a separate `resolutions.json` file that you can freely edit.
+The node also generates an **Empty Latent** (1×4×H/8×W/8), so you can plug it directly instead of an `Empty Latent Image` node.
+---
+
+## Features
+
+- ✅ Dropdown list of predefined image/video resolutions  
+- ✅ Easy manual input via “Custom (manual input)” option  
+- ✅ External `resolutions.json` file — editable at runtime  
+- ✅ Works with **Reload Custom Nodes** (no restart)  
+- ✅ Clean output: `(width, height)` for direct wiring to `Empty Latent Image`, `WANVideo`, etc.  
+
 <p align="center">
   <img src="Images/01.png" width="600">
 </p>
@@ -13,17 +24,6 @@ Presets are stored in a separate `resolutions.json` file that you can freely edi
 <p align="center">
   <img src="Images/03.png" width="600">
 </p>
-
-
----
-
-## Features
-
-- ✅ Dropdown list of predefined image/video resolutions  
-- ✅ Easy manual input via “Custom (manual input)” option  
-- ✅ External `resolutions.json` file — editable at runtime  
-- ✅ Works with **Reload Custom Nodes** (no restart)  
-- ✅ Clean output: `(width, height)` for direct wiring to `Empty Latent Image`, `WANVideo`, etc.
 
 ---
 
